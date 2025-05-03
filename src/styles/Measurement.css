@@ -1,0 +1,218 @@
+    .measurements-page {
+        font-family: 'Segoe UI', sans-serif;
+        color: #222;
+        line-height: 1.6;
+    }
+    
+    /* Hero Section */
+    .measurements-hero {
+        background-color: #222;
+        padding: 100px 20px;
+        text-align: center;
+        color: #fff;
+    }
+    
+    .hero-content h1 {
+        font-size: 3rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .hero-content p {
+        font-size: 1.25rem;
+        max-width: 600px;
+        margin: 0 auto;
+        opacity: 0.9;
+    }
+    
+    /* Intro Section */
+    .measurements-intro {
+        padding: 60px 20px;
+        background-color: #f9f9f9;
+    }
+    
+    .measurements-intro h2 {
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    
+    .measurements-intro ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 1rem;
+    }
+    
+    .measurements-intro ul li {
+        margin-bottom: 8px;
+    }
+    
+    .measurement-tip {
+        margin-top: 2rem;
+        padding: 1rem;
+        background-color: #fff8e1;
+        border-left: 5px solid #ffb300;
+        font-style: italic;
+    }
+    
+    /* Tools Section */
+    .measurements-tools {
+        padding: 60px 20px;
+        background-color: #ffffff;
+    }
+    
+    .tools-selector {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    
+    .tool-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    
+    .tool-button {
+        padding: 10px 16px;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+        background-color: #f0f0f0;
+        font-weight: 500;
+        transition: all 0.3s ease;
+        cursor: pointer;
+    }
+    
+    .tool-button:hover {
+        background-color: #ff6b6b;
+        color: #fff;
+        border-color: #ff6b6b;
+    }
+    
+    .tool-button.active {
+        background-color: #ff6b6b;
+        color: white;
+        border-color: #ff6b6b;
+    }
+    
+    /* Tool Display */
+    .tool-display .tool-content {
+        display: none;
+        padding: 30px;
+        border: 1px solid #eee;
+        border-radius: 10px;
+        background-color: #fafafa;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+    .tool-display .tool-content.active {
+        display: block;
+    }
+    
+    .tool-content h3 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .tool-content .formula {
+        font-style: italic;
+        margin-top: 10px;
+        color: #555;
+    }
+    
+    /* Guide Section */
+    .measurements-guide {
+        padding: 60px 20px;
+        background-color: #f0f8f7;
+    }
+    
+    .measurements-guide h2 {
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .guide-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 30px;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    
+    .guide-card {
+        background: #ffffff;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+    }
+    
+    .guide-card h3 {
+        font-size: 1.2rem;
+        margin-bottom: 0.75rem;
+    }
+    
+    .guide-card ul {
+        padding-left: 20px;
+    }
+    
+    .guide-card ul li {
+        margin-bottom: 6px;
+    }
+    
+    /* CTA Section */
+    .measurements-cta {
+        background-color: #222;
+        color: #fff;
+        padding: 60px 20px;
+        text-align: center;
+    }
+    
+    .measurements-cta h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    
+    .measurements-cta p {
+        font-size: 1.1rem;
+        max-width: 600px;
+        margin: 0 auto 2rem;
+    }
+    
+    .cta-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    
+    .cta-button {
+        padding: 12px 24px;
+        border: none;
+        border-radius: 8px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    .cta-button.primary {
+        background-color: #ff6b6b;
+        color: white;
+    }
+    
+    .cta-button.primary:hover {
+        background-color: #e55757;
+    }
+    
+    .cta-button.secondary {
+        background-color: transparent;
+        color: #fff;
+        border: 2px solid #ff6b6b;
+    }
+    
+    .cta-button.secondary:hover {
+        background-color: #ff6b6b;
+        color: white;
+    }
+    

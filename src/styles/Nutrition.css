@@ -1,0 +1,238 @@
+    /* Global Resets */
+    .nutrition-page {
+        font-family: "Poppins", sans-serif;
+        color: #1e1e1e;
+        line-height: 1.6;
+    }
+    
+    .section-container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 2rem 1rem;
+    }
+    
+    .section-header {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    
+    .section-header h2 {
+        font-size: 2rem;
+        color: #ff6b35;
+    }
+    
+    .section-header p {
+        color: #555;
+    }
+    
+    /* Hero Section */
+    .nutrition-hero {
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 5rem 1rem;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .hero-content {
+        max-width: 700px;
+    }
+    
+    .hero-content h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+    
+    .hero-content p {
+        font-size: 1.2rem;
+        color: #f1f1f1;
+    }
+    
+    /* Intro Section */
+    .nutrition-intro h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        color: #004e89;
+    }
+    
+    .nutrition-intro p {
+        font-size: 1.1rem;
+        color: #555;
+    }
+    
+    /* Plans Section */
+    .nutrition-plans {
+        background-color: #f7f7f7;
+        padding: 3rem 1rem;
+    }
+    
+    .plans-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+    
+    .plan-card {
+        background-color: white;
+        padding: 1.5rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        transition: transform 0.3s;
+    }
+    
+    .plan-card:hover {
+        transform: translateY(-5px);
+    }
+    
+    .plan-card h3 {
+        color: #ff6b35;
+        margin-bottom: 0.5rem;
+    }
+    
+    .plan-card ul {
+        margin: 1rem 0;
+        padding-left: 1.2rem;
+    }
+    
+    .plan-button {
+        background-color: #ff6b35;
+        color: white;
+        border: none;
+        padding: 0.6rem 1.2rem;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    .plan-button:hover {
+        background-color: #e65a2d;
+    }
+    
+    /* Approach Section */
+    .nutrition-approach {
+        padding: 3rem 1rem;
+        background-color: white;
+    }
+    
+    .approach-content h2 {
+        font-size: 2rem;
+        color: #004e89;
+    }
+    
+    .approach-content ul {
+        list-style: disc;
+        margin-left: 1.5rem;
+        margin-top: 1rem;
+        color: #444;
+    }
+    
+    .approach-image img {
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        margin-top: 2rem;
+    }
+    
+    @media (min-width: 768px) {
+        .section-container {
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+        }
+    
+        .approach-content {
+        flex: 1;
+        }
+    
+        .approach-image {
+        flex: 1;
+        }
+    }
+    
+    /* Methods Section */
+    .nutrition-methods {
+        padding: 3rem 1rem;
+        background-color: #f0f0f0;
+    }
+    
+    .methods-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+    
+    .method-card {
+        background-color: white;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    }
+    
+    .method-image img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+    }
+    
+    .method-content {
+        padding: 1rem;
+    }
+    
+    .method-content h3 {
+        color: #ff6b35;
+    }
+    
+    /* Tips Section */
+    .nutrition-tips {
+        padding: 3rem 1rem;
+    }
+    
+    .tips-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 1.5rem;
+        margin-top: 2rem;
+    }
+    
+    .tip-card {
+        background-color: #fffdf8;
+        padding: 1.5rem;
+        border-radius: 10px;
+        border-left: 6px solid #00a896;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    
+    .tip-card h3 {
+        color: #004e89;
+        margin-bottom: 0.5rem;
+    }
+    
+    /* CTA Section */
+    .nutrition-cta {
+        background-color: #004e89;
+        color: white;
+        text-align: center;
+        padding: 3rem 1rem;
+    }
+    
+    .cta-button {
+        background-color: #ff6b35;
+        border: none;
+        padding: 0.8rem 1.6rem;
+        margin-top: 1rem;
+        font-size: 1rem;
+        color: white;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    .cta-button:hover {
+        background-color: #e65a2d;
+    }
+    
